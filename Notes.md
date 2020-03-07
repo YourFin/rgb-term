@@ -1,6 +1,8 @@
 # Implementation notes:
 
 ## Nearcolor notes:
+["Standard" reference gist](https://gist.github.com/XVilka/8346728)
+
 [Zsh Nearcolor
 code](https://github.com/zsh-users/zsh/blob/master/Src/Modules/nearcolor.c)
 
