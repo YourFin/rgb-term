@@ -1,5 +1,18 @@
 # Implementation notes:
 
+Trust colorterm over how many colors it says
+
+terminfo
+rgb=three part color
+sgr=how to color (formula)
+colors=how many colors
+
+
+rxvt
+rxvt-xpm: background image support
+rxvt-mono: monochorme
+
+
 ## Nearcolor notes:
 ["Standard" reference gist](https://gist.github.com/XVilka/8346728)
 
@@ -27,3 +40,11 @@ code](https://github.com/zsh-users/zsh/blob/master/Src/Modules/nearcolor.c)
 | `uxterm -tn xterm-direct` | `xterm-direct` | unset | xterm | 16777216 (>8 maps to 3-byte RGB) | set | `\E[38;2;%p1%d;%p2%d;%p3%dm` (unset, ANSI) | `\E[48;2;%p1%d;%p2%d;%p3%dm` (unset, ANSI) | both |
 
 <sup>1</sup> `gnome-terminal`'s rxvt color scheme uses #FAEBD7 for white and has a darker bright black than the real rxvt
+=======
+[Lab color](http://www.photoshopbuzz.com/what-is-lab-color-photoshop/)
+
+
+Other links:
+ - https://gist.github.com/XVilka/8346728
+ - https://gist.github.com/zchee/9f6f2ca17acf49e04088
+ - 
